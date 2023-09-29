@@ -1,2 +1,2 @@
-# Nasha-Mukti
-A database integration application
+# Lowe's
+A database application
