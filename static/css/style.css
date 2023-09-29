@@ -27,15 +27,14 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     margin-left: 20px;
-    font-weight: bold;
     font-size: 20px;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #eed9e7;
+    color: #9aa0b1;
 }
 
 /* Dummy image styles */
@@ -59,14 +58,13 @@ body {
 
 .text-below {
     font-size: 18px;
-    margin: 0 auto;
-    max-width: 60%; /* Adjust the width as needed */
-    text-align: left; /* Align text to the left */
+    padding-left: 100px;
     color: #000000;
 }
 
 /* Job openings styles */
 .job-openings {
+    text-align: center;
     font-size: 36px;
     margin-top: 40px;
     color: #000000;
