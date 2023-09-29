@@ -25,7 +25,7 @@ JOBS = [{
     'id': 5,
     'title': 'DevOps Engineer',
     'location': 'Bengaluru, India',
-    'salary': 'Rs.10,00,000'
+    'salary': 'Rs.10,00,11'
 }]
 
 
