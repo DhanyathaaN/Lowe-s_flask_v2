@@ -1,0 +1,114 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: robo ;
+    background-color: #eed9e7; /* Add your desired background color here */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo img {
+
+    width: 84px;
+    height: 56px;
+    margin-right: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #eed9e7;
+}
+
+/* Dummy image styles */
+.dummy-image {
+    background-image: url('your-dummy-image.jpg');
+    background-size: cover;
+    height: 25vh;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-us {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.text-below {
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 60%; /* Adjust the width as needed */
+    text-align: left; /* Align text to the left */
+    color: #000000;
+}
+
+/* Job openings styles */
+.job-openings {
+    font-size: 36px;
+    margin-top: 40px;
+    color: #000000;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 870px;
+    background-color: #fff;
+    padding: 11px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.job-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.apply-button {
+    background-color: #383635;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #000000;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    height: max-content;
+    padding: 10px 0;
+}
